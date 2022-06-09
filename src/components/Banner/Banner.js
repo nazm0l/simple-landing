@@ -11,7 +11,7 @@ const Banner = () => {
             </div>
             <div className='award-container'>
                 <div className='award-content'>
-                    <h2>C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</h2>
+                    <h4>C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</h4>
                     <ul>
                         <li>
                         C.R.I.'s energy efficient products are well recognized by various Government Institutions, as trustworthy products for various projects across the globe to save energy.
@@ -21,7 +21,7 @@ const Banner = () => {
                         </li>
                     </ul>
                     <img src={awardReceive} alt="award receive" />
-                    <h4>Government of India has awarded the <span>"National Energy Conservation Award 2018"</span>. Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.</h4>
+                    <p>Government of India has awarded the <span className='highlited-text'>"National Energy Conservation Award 2018"</span>. Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.</p>
                 </div>
             </div>
         </section>
