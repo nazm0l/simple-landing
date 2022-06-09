@@ -1,8 +1,8 @@
-.img-container {
+.nav-container {
     display: flex;
     justify-content: center;
 }
 
-.img-container img {
+.nav-container img {
     width: 300px;
 }

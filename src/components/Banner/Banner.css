@@ -1,0 +1,48 @@
+.banner-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.banner-img img {
+    width: 580px;
+}
+
+.award-container {
+    padding: 40px;
+
+}
+
+.award-container ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    font-weight: 600;
+}
+
+.award-container img {
+    width: 100%;
+}
+
+
+/* Responsive for mobile */
+
+@media only screen and (max-width: 600px) {
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-img {
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-img img {
+        width: 80%;
+    }
+  }
